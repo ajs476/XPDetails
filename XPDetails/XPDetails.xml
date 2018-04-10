@@ -1,6 +1,6 @@
 <GuiXml>
     <Controls>
-        <TopLevelControl name="XPDetails" mouseEnabled="true" movable="true" clampedToScreen="true" resizeHandleSize="4">
+        <TopLevelControl name="XPDetails" mouseEnabled="true" movable="true" clampedToScreen="true" resizeHandleSize="0">
             <Dimensions x="225" y="26" />
             <DimensionConstraints minX="225" minY="26" />
             <Anchor point="TOPLEFT" offsetX="100" offsetY="75"/>
