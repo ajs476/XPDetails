@@ -1,0 +1,20 @@
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="XPDetails" mouseEnabled="true" movable="true" clampedToScreen="true" resizeHandleSize="4">
+            <Dimensions x="225" y="26" />
+            <DimensionConstraints minX="225" minY="26" />
+            <Anchor point="TOPLEFT" offsetX="100" offsetY="75"/>
+
+            <OnInitialized>
+
+            </OnInitialized>
+
+            <Controls>
+                <Backdrop name="$(parent)BG" inherits="ZO_DefaultBackdrop" edgeColor="000000" centerColor="000000" alpha="0.5" edgeSize="10" />
+                <Label name="$(parent)Output" font="ZoFontWinH3" color="CFDCBD" wrapMode="ELLIPSIS" verticalAlignment="CENTER" text="" horizontalAlignment="CENTER">
+                    <AnchorFill />
+                </Label>
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>
